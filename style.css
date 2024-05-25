@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(175, 9, 9),rgb(99, 17, 17));
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(47, 1, 1);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+footer img {
+    box-shadow: 10px 10px 10px 0 rgb(35, 4, 4);
+    margin-top: 10px;
+    margin-left: 130px;
+    border-radius: 33px;
+}
+
+
+.link-nav2 {
+float: right;
+}
+
+.link-nav1 {
+    float: left;
+}
+
+.link-nav2 {
+    text-decoration: none;
+    color: black ;
+    margin: 20px;
+    border:  4px dotted rgb(175, 9, 9);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.link-nav1 {
+    text-decoration: none;
+    color: black ;
+    margin: 20px;
+    border:  4px dotted rgb(233, 20, 20);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.link-nav1:hover {
+    color: white;
+    background-color: rgb(195, 48, 48);
+    transition: all 1 linear;
+}
+
+.link-nav2:hover {
+    color: white;
+    background-color: rgb(146, 20, 20);
+    transition: all 1 linear;
+}
+
+h1:hover {
+    transform: scale(1.5);
+    padding: 20px;
+    transition: 1s all ease-in;
+}
